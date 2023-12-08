@@ -1,0 +1,219 @@
+.interact-box {
+    padding: 12px;
+    border: 1px solid #888;
+}
+
+.interact-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1.4rem;
+    background-color: var(--primary-color);
+    color: #222;
+    text-decoration: none;
+}
+
+.interact-btn:hover {
+    opacity: .9;
+    color: #222;
+}
+
+.interact-btn.interact-add {
+    background-color: #00c2ff;
+}
+.interact-btn.interact-edit {
+    background-color: #ffdc18;
+}
+.interact-btn.interact-delete {
+    background-color: #bb0000;
+    color: #fff;
+}
+
+.interact-search-form {
+    display: inline-block;
+}
+
+.interact-search-input {
+    padding: 8px 16px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #222;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.interact-search-btn {
+    font-size: 1.4rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+}
+
+.interact-table {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.interact-table, .interact-table th, .interact-table td {
+    border: 1px solid #bdbdbd;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+.interact-table thead tr th {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.interact-table tbody tr td {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.table-no-data-text {
+    display: block;
+    padding: 4px 0;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #d6d6d6;
+    color: #222;
+    text-align: center;
+}
+
+/* ADD */
+.interact-form-box {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interact-form {
+    padding: 12px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.interact-form-group:not(:first-child) {
+    margin-top: 12px;
+}
+
+label.interact-form-label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+.interact-form-file-label {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+    background-color: #bcd4e6;
+    padding: 6px 12px;
+    display: block;
+    cursor: pointer;
+}
+
+.interact-form-file-label i {
+    margin-right: 6px;
+}
+
+.interact-form-image-preview {
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid #99999966;
+}
+
+input.interact-form-input, textarea.interact-form-textarea, select.interact-form-select {
+    width: 100%;
+    margin-top: 4px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    padding: 6px;
+}
+
+button.interact-form-submit-btn {
+    font-size: 1.6rem;
+    padding: 4px 8px;
+    border: none;
+    outline: none;
+    background-color: #0095b6;
+    color: #f4f4f4;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.interact-form-error {
+    display: block;
+    color: #ff1414;
+    font-size: 1.4rem;
+    font-weight: 400;
+    animation: showError .15s ease-out;
+}
+
+@keyframes showError {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    75% {
+        transform: translateX(-10px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* DELETE */
+.interact-form-delete {
+    margin-top: 12px;
+}
+
+.interact-delete-ask {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.interact-form-cancel-btn, .interact-form-delete-btn {
+    font-size: 1.6rem;
+    padding: 4px 8px;
+    border: none;
+    outline: none;
+    background-color: #ce0000;
+    color: #f4f4f4;
+}
+
+.interact-form-cancel-btn {
+    margin-right: 8px;
+    text-decoration: none;
+    background-color: #ccc;
+    color: #000;
+}
+.interact-form-cancel-btn:hover {
+    color: #333;
+    opacity: .85;
+}

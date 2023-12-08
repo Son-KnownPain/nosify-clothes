@@ -1,0 +1,24 @@
+.index-page {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.index-page i {
+    font-size: 4rem;
+    color: #666;
+
+}
+
+.index-page h1 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #222;
+    margin-top: 12px;
+}
+
+.index-page p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 12px;
+}

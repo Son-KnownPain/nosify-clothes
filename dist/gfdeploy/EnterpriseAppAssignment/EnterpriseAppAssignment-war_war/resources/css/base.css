@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #00aaff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #19b2ff;
+}
+
+.svg-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.onepercent-height {
+    height: 100%;
+}
+
+.no-mb {
+  margin-bottom: 0;
+}
+
+.flx-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

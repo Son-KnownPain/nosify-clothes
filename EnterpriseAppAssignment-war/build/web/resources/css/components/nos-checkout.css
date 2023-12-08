@@ -1,0 +1,229 @@
+#checkout {
+    margin-top: 12px;
+}
+
+#checkout .title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+#checkout .user {
+    padding: 12px 0;
+}
+
+#checkout .user .user-avatar {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#checkout .user .user-body {
+    margin-left: 8px;
+}
+
+#checkout .user .user-name {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+}
+
+#checkout .user .user-email, #checkout .user .user-phone {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #444;
+    margin-top: 8px;
+}
+
+#checkout .info {
+    padding: 12px 0;
+}
+
+#checkout .info .gr:not(:first-child) {
+    margin-top: 20px;
+}
+
+#checkout .info .input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #99999955;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#checkout .value {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #99999955;
+}
+
+#checkout .info-address {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #333;
+    margin: 8px 0;
+    margin-left: 4px;
+}
+
+#checkout .address-box {
+    margin-top: 20px;
+}
+
+#checkout .address-select {
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    outline: none;
+    border: 1px solid #99999955;
+    border-radius: 6px;
+}
+
+#checkout .actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#checkout .action {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#checkout .product-item:not(:first-child) {
+    margin-top: 16px;
+}
+
+#checkout .product-thumbnail {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 4px;
+}
+
+#checkout .product-name {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 0;
+}
+
+#checkout .product-line, #checkout .product-result {
+    margin-bottom: 0;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+}
+
+#checkout .product-result {
+    font-weight: 500;
+    color: #111;
+}
+
+#checkout .price-box {
+    padding: 24px 0;
+    border-top: 1px solid #999;
+    margin-top: 24px;
+}
+
+#checkout .price-box .price-line, #checkout .price-box .price-line-strong {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#checkout .price-box .price-line-strong {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#checkout .price-key {
+    color: #555;
+}
+
+#checkout .price-val {
+    position: relative;
+    color: #000;
+    font-weight: 500;
+}
+
+#checkout .price-box .total-price-val::before {
+    position: absolute;
+    content: "VND";
+    display: block;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(calc(-100% - 6px));
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #555;
+}
+
+/* WARNING */
+.warning {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    color: #000;
+    margin-top: 24px;
+}
+
+/* Order Success */
+#order-success {
+    text-align: center;
+}
+
+#order-success .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: #00cd00;
+}
+
+#order-success .annoucement, #order-success .continue-shopping {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 16px;
+}
+
+#order-success .continue-shopping {
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+}
+#order-success .continue-shopping:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

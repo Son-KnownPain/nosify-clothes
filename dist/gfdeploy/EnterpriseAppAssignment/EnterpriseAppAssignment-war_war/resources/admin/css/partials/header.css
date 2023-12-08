@@ -1,0 +1,52 @@
+:root {
+    --header-height: 80px;
+}
+
+/* CSS for header here */
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    box-shadow: 0 0 10px #66666688;
+    background-color: #f8f8f8;
+    z-index: 99;
+}
+
+#header .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-logoLink {
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    align-items: center;
+}
+
+#header .header-logoLink h3 {
+    margin-bottom: 0;
+    margin-left: 4px;
+}
+
+#header img.header-logoImg {
+    width: 66px;
+    border-radius: 8px;
+}
+
+#header .action-item {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}

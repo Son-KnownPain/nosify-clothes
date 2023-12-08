@@ -1,0 +1,10 @@
+#content {
+    margin-top: var(--header-height);
+    display: flex;
+}
+
+#layout-content {
+    flex: 1;
+    padding: 4px;
+    margin-left: 260px;
+}

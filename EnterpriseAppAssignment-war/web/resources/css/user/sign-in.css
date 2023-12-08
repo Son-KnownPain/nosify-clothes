@@ -1,0 +1,116 @@
+#login-container {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    width: 400px;
+    margin-top: 36px;
+}
+
+#login-container .title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#login-container .login-form {
+    padding: 12px 0;
+}
+
+#login-container .login-form-gr {
+    margin-top: 12px;
+}
+
+#login-container .login-form-label {
+    display: block;
+    font-size: 1.4rem;
+    color: #777;
+}
+
+#login-container .login-form-gr.invalid .login-form-input {
+    border-color: #ff1f1f;
+}
+
+#login-container .login-form-input {
+    font-size: 1.6rem;
+    padding: 8px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+
+#login-container .login-form-message {
+    font-size: 1.4rem;
+    color: #ff1f1f;
+    font-weight: 400;
+}
+
+#login-container .form-btn {
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+#login-container .form-btn:hover {
+    opacity: 0.9;
+}
+
+#login-container .login-other {
+    margin-top: 12px;
+}
+
+#login-container .login-text {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 400;
+}
+
+#login-container .login-text-link {
+    text-decoration: none;
+}
+
+#login-container .login-forgot-btn {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 28px;
+    padding: 4px 12px;
+    transition: all 0.2s ease-out;
+}
+#login-container .login-forgot-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Sign Up */
+#sign-up-annouce {
+    font-size: 1.6rem;
+    color: #00c700;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Sign In */
+#not-verify-box {
+    background-color: #ffef76;
+    color: #000;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+#not-verify-box h5 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+#not-verify-box p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+}

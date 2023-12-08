@@ -1,0 +1,29 @@
+#app {
+    margin-bottom: 60px;
+}
+
+.header {
+    padding: 24px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.desc {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+    margin-top: 12px;
+}
+
+.desc .link {
+    color: #000;
+}
+.desc .link:hover {
+    color: var(--primary-color);
+}

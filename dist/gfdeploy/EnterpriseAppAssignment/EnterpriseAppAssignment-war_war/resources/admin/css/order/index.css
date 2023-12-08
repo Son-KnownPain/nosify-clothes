@@ -1,0 +1,49 @@
+.orders {
+    margin-top: 16px;
+}
+
+.orders .order-item {
+    padding: 12px;
+    box-shadow: 0 0 10px #99999966;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #fff;
+    color: #222;
+    border-radius: 6px;
+}
+.orders .order-item:not(:first-child) {
+    margin-top: 12px;
+}
+
+.orders .order-item .title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.orders .order-item .line {
+    color: #444;
+    margin-bottom: 0;
+    margin: 8px 0;
+}
+
+.orders .order-item .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.orders .order-item .action {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+.orders .order-item .action:not(:first-child) {
+    margin-left: 16px;
+}
+.orders .order-item .action i {
+    margin-right: 4px;
+}
